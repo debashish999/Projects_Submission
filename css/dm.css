@@ -1,0 +1,20 @@
+.contain{
+	width: 335px;
+	position: relative;
+	height: 500px;
+	padding: 5px;
+	left: 609px;
+	top:-544px;
+	border: 1px solid black;
+	background-color: skyblue
+}
+.box{
+	width: 300px;
+	position: relative;
+	height: 400px;
+	left: 605px;
+	top:-33px;
+	padding: 5px;
+	border: 1px solid black;
+	background-color: skyblue;
+}

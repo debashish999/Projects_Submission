@@ -1,0 +1,94 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Exe-1</title>
+    <link rel="stylesheet" href="styles.css">
+<script src="scripts.js"></script>
+  </head>
+  <body>
+
+    <table>
+      <tr>
+
+
+        <td>
+        <form onsubmit="event.preventDefault();onFormsubmit();">
+          <div class="">
+            <label for="Name">Name</label>
+            <input type="text" name="name" placeholder="Enter Name" id="userName">
+            <br>
+          </div>
+
+            <div class="">
+              <label for="DOB">DOB</label>
+              <input type="date" name="name" placeholder="Enter Name" id="DOB">
+              <br>
+            </div>
+
+              <div class="">
+                <label for="Gender">Gender</label>
+                <input type="radio" name="gender" id="genderMale" value="Male" >male
+                <input type="radio" name="gender" id="genderFemale" value="Female">female
+                <br>
+              </div>
+
+                <div class="">
+                  <label for="Skills">Skills</label>
+                  <select class="" name="Skills" id="Skills">
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                  </select>
+                  <br>
+                </div>
+
+                  <div class="">
+                    <label for="Hobby">Hobby</label>
+                    <input type="checkbox" name="Hobby" id="hobbyCricket" value="Cricket" class="checks">Cricket
+                    <input type="checkbox" name="Hobby" id="hobbyTennis" value="Tennis" class="checks">Tennis
+                    <br>
+                  </div>
+                  <div class="">
+                    <input type="submit" name="submit" value="Add/Update" id="submitButton">
+                    <br>
+        </form>
+        </td>
+        <td>
+          <table class="userData" id="userList" border="1">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Skill</th>
+                <th>Hobby</th>
+                <th>Edit</th>
+
+              </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+
+          </table>
+
+
+        </td>
+
+
+      </tr>
+
+      <tr>
+
+
+
+      </tr>
+    </table>
+
+
+
+
+
+  </body>
+
+</html>
