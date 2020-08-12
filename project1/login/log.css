@@ -1,0 +1,32 @@
+.title{
+	position: relative;
+	align-self: center;
+	top: 25px;
+}
+.log{
+	position: relative;
+	width: 35%;
+	background-color: #2C3E50 ;
+	top: 120px;
+	height: 320px;
+	align-items: center;
+	left: 100px;
+	border: thick ;
+}
+.user{
+	color: white;
+	left: 73px;
+	top: 53px;
+	position: relative;
+
+}
+.pass{
+	color: white;
+	left: 50px;
+	top: 53px;
+	position: relative;
+}
+.res{
+	position: relative;
+	left: 20px;
+}

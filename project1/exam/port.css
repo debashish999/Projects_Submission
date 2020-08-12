@@ -1,0 +1,24 @@
+.para{
+	width: 68.5%;
+	position: relative;
+	top: 0px;
+	height: 150px;
+	left: 240px;
+	background: #DCB2D0 ;
+	color: #2C272B;
+	align-self: : center;
+	border-color: 15px solid #D6DBDF;
+}
+.gap{
+	left: 10px;
+	position: relative;
+
+}
+.last{
+	width: 67.6%;
+	position:relative;
+	background: #A9F4F6 ;
+	left: 230px;
+	top: -145px;
+
+}
